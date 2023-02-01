@@ -1,6 +1,7 @@
 import React, { useState , useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './src/DarkMode.css';
 
 function App() {
   // USING useState
@@ -24,11 +25,7 @@ function App() {
     //Dynamically adding classname
     <div className={`app ${theme}`}>
       <header className="App-header">
-
-      //toggle button
-
       <button onClick={toggleTheme}>TOGGGLE</button>
-
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
