@@ -4,6 +4,9 @@ import './App.css';
 import './DarkMode.css';
 
 function App() {
+  
+  let body = document.body;
+
   // USING useState
   const [theme , setTheme ] = useState('light')
 
@@ -22,10 +25,10 @@ function App() {
    },[theme]);
 
   return (
-    
+
     //Dynamically adding classname
     <div className={`app ${theme}`}>
-      <header className="App-header">
+      <header className={`App-header ${theme}`}>
       <button className={`aaa`} onClick={toggleTheme}>TOGGGLE</button>
         <img src={logo} className="App-logo" alt="logo" />
       </header>

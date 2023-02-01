@@ -1,0 +1,21 @@
+
+.app{
+  color: red;
+}
+
+.dark {
+  background-color: rgb(19, 18, 18);
+  color: rgb(251, 251, 251);
+  }
+  .light {
+  background-color: rgb(255, 255, 255);
+  color: rgb(5, 5, 5);
+  }
+
+  .aaa{
+    height: 50px;
+    width: 200px;
+    color: rgb(9, 12, 106);
+    border-radius: 10px;
+    
+  }
