@@ -19,7 +19,7 @@ function App() {
     }
    };
 
-   //useEffect 
+   //useEffect !
    useEffect(() => {
     document.body.className = theme;
    },[theme]);
